@@ -1,0 +1,23 @@
+{
+  "name": "dynamic-routing",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node ./server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node ./server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1",
+    "fastify": "^2.6.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "latest",
+    "nprogress": "^0.2.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-html-parser": "^2.0.2"
+  }
+}
